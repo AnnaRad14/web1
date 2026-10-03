@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Students>
+
+    <Student>
+        <Name>Anna</Name>
+        <Age>20</Age>
+        <Speciality>Computer Science</Speciality>
+    </Student>
+
+    <Student>
+        <Name>Ivan</Name>
+        <Age>21</Age>
+        <Speciality>Software Engineering</Speciality>
+    </Student>
+
+    <Student>
+        <Name>Maria</Name>
+        <Age>19</Age>
+        <Speciality>Computer Science</Speciality>
+    </Student>
+
+</Students>

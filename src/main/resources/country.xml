@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="country.xsd">
+
+    <Name>Ukraine</Name>
+    <Capital>Kyiv</Capital>
+    <Population>37000000</Population>
+    <Language>Ukrainian</Language>
+
+</Country>

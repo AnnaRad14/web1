@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><Critical>
+    <Component>
+        <Name>Intel Core i7-14700K</Name>
+        <Origin>USA</Origin>
+        <Price>18500</Price>
+        <Type>
+            <Peripheral>false</Peripheral>
+            <PowerConsumption>125</PowerConsumption>
+            <Cooler>true</Cooler>
+            <Group>Multimedia</Group>
+            <Port>USB</Port>
+        </Type>
+        <Critical>true</Critical>
+    </Component>
+    <Component>
+        <Name>Kingston Fury 32GB</Name>
+        <Origin>USA</Origin>
+        <Price>4200</Price>
+        <Type>
+            <Peripheral>false</Peripheral>
+            <PowerConsumption>15</PowerConsumption>
+            <Cooler>false</Cooler>
+            <Group>Multimedia</Group>
+            <Port>USB</Port>
+        </Type>
+        <Critical>true</Critical>
+    </Component>
+</Critical>

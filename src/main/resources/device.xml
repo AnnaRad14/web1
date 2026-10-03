@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="device.xsd">
+
+    <Component>
+        <Name>Logitech MX Master 3</Name>
+        <Origin>Switzerland</Origin>
+        <Price>3500</Price>
+
+        <Type>
+            <Peripheral>true</Peripheral>
+            <PowerConsumption>5</PowerConsumption>
+            <Cooler>false</Cooler>
+            <Group>Input</Group>
+            <Port>USB</Port>
+        </Type>
+
+        <Critical>false</Critical>
+    </Component>
+
+    <Component>
+        <Name>Intel Core i7-14700K</Name>
+        <Origin>USA</Origin>
+        <Price>18500</Price>
+
+        <Type>
+            <Peripheral>false</Peripheral>
+            <PowerConsumption>125</PowerConsumption>
+            <Cooler>true</Cooler>
+            <Group>Multimedia</Group>
+            <Port>USB</Port>
+        </Type>
+
+        <Critical>true</Critical>
+    </Component>
+
+    <Component>
+        <Name>Kingston Fury 32GB</Name>
+        <Origin>USA</Origin>
+        <Price>4200</Price>
+
+        <Type>
+            <Peripheral>false</Peripheral>
+            <PowerConsumption>15</PowerConsumption>
+            <Cooler>false</Cooler>
+            <Group>Multimedia</Group>
+            <Port>USB</Port>
+        </Type>
+
+        <Critical>true</Critical>
+    </Component>
+
+    <Component>
+        <Name>HP LaserJet Pro</Name>
+        <Origin>USA</Origin>
+        <Price>7200</Price>
+
+        <Type>
+            <Peripheral>true</Peripheral>
+            <PowerConsumption>60</PowerConsumption>
+            <Cooler>false</Cooler>
+            <Group>Output</Group>
+            <Port>USB</Port>
+        </Type>
+
+        <Critical>false</Critical>
+    </Component>
+
+</Device>

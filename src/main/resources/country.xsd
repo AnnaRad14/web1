@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Простий тип для населення з граничними значеннями -->
+    <xs:simpleType name="PopulationType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="1000000000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Простий тип з перерахуванням -->
+    <xs:simpleType name="LanguageType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Ukrainian"/>
+            <xs:enumeration value="English"/>
+            <xs:enumeration value="German"/>
+            <xs:enumeration value="French"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Комплексний тип країни -->
+    <xs:complexType name="CountryType">
+        <xs:sequence>
+
+            <xs:element name="Name"
+                        type="xs:string"/>
+
+            <xs:element name="Capital"
+                        type="xs:string"/>
+
+            <xs:element name="Population"
+                        type="PopulationType"/>
+
+            <xs:element name="Language"
+                        type="LanguageType"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Кореневий елемент -->
+    <xs:element name="Country"
+                type="CountryType"/>
+
+</xs:schema>
